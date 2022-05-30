@@ -1,0 +1,11 @@
+@import "fonts.css";
+body {
+  font-family: fontRegular;
+}
+th {
+  font-size: 1.3rem;
+  font-family: fontBold;
+}
+td {
+  font-size: 1.1rem;
+}

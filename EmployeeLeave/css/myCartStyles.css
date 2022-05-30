@@ -1,0 +1,75 @@
+@import "fonts.css";
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+  font-family: fontRegular;
+}
+.main {
+  width: 100%;
+  height: auto;
+}
+.myCartTitle {
+  padding-top: 2rem;
+  padding-left: 4rem;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+.firstBox {
+  width: 100%;
+  height: auto;
+  padding-top: 5rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 4rem;
+}
+.cartItemsTable {
+  font-size: 1.2rem;
+}
+.cartItemsTableHeading {
+  font-size: 1.4rem;
+}
+.cartItemsTableRow {
+  vertical-align: middle;
+}
+.qtyBtn {
+  color: black;
+  border-color: black;
+  height: 2rem;
+}
+.qtyBtn:hover {
+  border-color: black;
+}
+
+.orderSummaryRow {
+  padding-top: 3rem;
+}
+.orderSummaryCol {
+  padding: 2rem;
+  border: 1px solid black;
+  box-shadow: 1px 1px 3px 1px #888888;
+  border-radius: 10px;
+}
+.orderSummaryTable {
+  font-size: 1.5rem;
+}
+.CheckoutBtn {
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 0.5rem;
+  box-shadow: 1px 1px 3px 1px #888888;
+}
+.CheckoutBtn:hover {
+  box-shadow: 7px 7px 7px 3px #888888;
+}
+
+/* Footer Styles */
+.myFooter {
+  background-color: #343a40;
+  color: white;
+  padding: 0.2rem;
+  box-shadow: 0px 0px 7px 2px #888888;
+}

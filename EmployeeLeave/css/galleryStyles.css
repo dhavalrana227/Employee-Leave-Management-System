@@ -1,0 +1,52 @@
+@import "fonts.css";
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+  font-family: fontRegular;
+}
+.main {
+  width: 100%;
+  height: auto;
+}
+.galleryTitle {
+  padding-top: 2rem;
+  padding-left: 4rem;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+.firstBox {
+  width: 100%;
+  height: auto;
+  padding-top: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 4rem;
+}
+.imageCol {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.imageCard {
+  height: 20rem;
+  width: 100%;
+  box-shadow: 7px 7px 7px 7px #888888;
+  filter: grayscale(100%);
+}
+.imageCard:hover {
+  box-shadow: 10px 10px 10px 10px #888888;
+  filter: grayscale(0%);
+}
+
+/* Footer Styles */
+.myFooter {
+  background-color: #343a40;
+  color: white;
+  padding: 0.2rem;
+  box-shadow: 0px 0px 7px 2px #888888;
+}

@@ -1,0 +1,21 @@
+@import "fonts.css";
+body {
+  font-family: fontRegular;
+}
+.addCatRow {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+.addCatRowTitle {
+  font-size: 1.2rem;
+  font-family: fontBold;
+}
+.addCatButton {
+  width: 100%;
+  padding: 0.5rem;
+  box-shadow: 3px 3px 7px 3px #cacaca;
+}
+.addCatButton:hover {
+  box-shadow: 7px 7px 7px 7px #cacaca;
+}
