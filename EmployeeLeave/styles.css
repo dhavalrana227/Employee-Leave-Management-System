@@ -1,0 +1,97 @@
+@import "fonts.css";
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+  font-family: fontRegular;
+}
+.main {
+  width: 100%;
+  height: auto;
+  background-color: #f9f7fa;
+}
+
+/* FirstBox Styles */
+.firstBox {
+  background-image: url("bg.jpg");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 15rem;
+}
+.titleBtnContainer {
+  padding-top: 8rem;
+  padding-left: 4rem;
+}
+.title {
+  font-family: fontBold;
+  font-size: 4rem;
+}
+.exploreBtn {
+  color: white;
+  font-size: 1.3rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  box-shadow: 3px 3px 7px 3px #888888;
+}
+.exploreBtn:hover {
+  box-shadow: 7px 7px 7px 7px #888888;
+}
+/* End Of FirstBox Styles */
+
+/* secondBox Styles */
+.secondBox {
+  width: 100%;
+  height: auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #f0e4e4;
+}
+.bestSellTitle {
+  font-size: 3rem;
+  text-align: center;
+}
+.trendProductRow {
+  margin-top: 5rem;
+}
+.trendProductCol {
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 0.5rem;
+}
+/* End Of secondBox Styles */
+
+/* ThirBox Styles */
+.thirdBox {
+  width: 100%;
+  height: auto;
+  background-color: #f9f4f4;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.ourMessageTitle {
+  font-size: 3rem;
+  text-align: center;
+}
+.ourMessageRow {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 3rem;
+}
+.ourMessage {
+  font-size: 1.5rem;
+}
+/* End Of thirdBox Styles */
+
+/* Footer Styles */
+.myFooter {
+  background-color: #343a40;
+  color: white;
+  padding: 0.2rem;
+  box-shadow: 0px 0px 7px 2px #888888;
+}
